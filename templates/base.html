@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include 'includes/head.html' %}
+<body>
+    {% include 'includes/menu.html' %}
+    <div class="container mt-4">
+        {% block content %}
+        {% endblock %}
+    </div>
+    {% include 'includes/footer.html' %}
+    <!-- Bootstrap 5 JS from CDN (Optional) -->
+    {% include 'includes/script.html' %}
+</body>
+</html>
